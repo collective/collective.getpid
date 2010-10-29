@@ -4,10 +4,10 @@
 
   
   <browser:page
-     for="OFS.interfaces.IApplication"
+     for="*"
      name="getPid"
      class=".browser.Process"
-     permission="zope2.ViewManagementScreens"
+     permission="zope2.Public"
      attribute="getPid"
      />
 </configure>
